@@ -1,0 +1,5 @@
+[build]
+dockerfile = "Dockerfile"
+
+[deploy]
+startCommand = "turnserver -c /etc/turnserver.conf --no-cli"
